@@ -20,68 +20,135 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow border-bottom border-5 border-success">
             <div class="container">
-                <a class="navbar-brand" href="#!">More Than Papua</a>
+                <a class="navbar-brand text-uppercase" href="#!">More Than Papua</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About MTP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#vision">Vision & Mission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">Our Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')" id="home">
+        <header class="py-5 bg-dark" id="home">
             <div class="text-center my-5">
                 <div class="bg-light mx-auto rounded mb-3" style="width:200px;">
                     <img class="img-fluid rounded-circle mb-4" src="./assets/logo-mtp.png" alt="..." />
                 </div>
-                <h1 class="text-white fs-3 fw-bolder">More Than Papua</h1>
-                <p class="text-white-50 mb-0">Landing Page Template</p>
+                <h1 class="text-white fs-3 fw-bolder text-uppercase">More Than Papua</h1>
             </div>
         </header>
         <!-- Content section-->
-        <section class="py-5" id="about-us">
+        <section class="py-5" id="about">
             <div class="container my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h1>About Us</h1>
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
+                        <h1 class="text-uppercase mb-3 display-1 fw-bolder">About MTP</h1>
+                        <p class="lead">
+                            Adalah digital start-up yang bergerak di bidang E-Culture guna memberikan edukasi untuk masyarakat Papua dan wisatawan ke Papua. Serta ke depannya dapat menjadi media pertukaran informasi dan bisnis.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
-        </div>
 
-        <section class="pt-4" id="team">
+        <section class="bg-dark py-5 shadow" id="vision">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-2 fw-bolder text-white mb-2">Digitising & Reviving the Culture</h1>
+                            <p class="lead text-white-50 my-5">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                                <a class="btn btn-success btn-lg px-4 me-sm-3" href="#mission">Our Mission</a>
+                                <a class="btn btn-outline-success btn-lg px-4" href="#team">Our Team</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- mission start -->
+        <section class="bg-light py-5 shadow" id="mission">
+            <div class="container px-5 my-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-4">
+                        <h1 class="display-2 fw-bolder mb-2 text-end">Mision</h1>
+                    </div>
+                    <div class="col-lg-8">
+                        <ul>
+                            <li>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque ratione maiores nesciunt dolor molestias vel repudiandae unde quasi corporis
+                            </li>
+                            <li>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque ratione maiores nesciunt dolor molestias vel repudiandae unde quasi corporis, error delectus et, animi debitis eaque at illum fugit soluta?
+                            </li>
+                            <li>
+                                Repudiandae unde quasi corporis, error delectus et, animi debitis eaque at illum fugit soluta?
+                            </li>
+                            <li>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque ratione maiores nesciunt dolor molestias vel repudiandae unde quasi corporis, error delectus et.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mission end -->
+
+        <!-- project start -->
+        <section class="bg-success py-5 shadow text-center" id="project">
+            <div class="container">
+
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <h1 class="display-2 fw-boldermy-5 fw-bolder text-uppercase">Our Project</h1>
+                        <p class="col-6 mx-auto mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque ratione maiores nesciunt dolor molestias vel repudiandae unde quasi corporis, error delectus et.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 p-5">
+                        <h2 class="display-3 my-4">Digitising</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque ratione maiores nesciunt dolor molestias vel repudiandae unde quasi corporis, error delectus et.
+                        </p>
+                        <a href="#" class="btn btn-lg btn-outline-dark mt-3">Read more</a>
+                    </div>
+                    <div class="col-lg-6 p-5">
+                        <h2 class="display-3 my-4">Reviving</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam itaque ratione maiores nesciunt dolor molestias vel repudiandae unde quasi corporis, error delectus et.
+                        </p>
+                        <a href="#" class="btn btn-lg btn-outline-dark mt-3">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- project end -->
+
+        <!-- team start -->
+        <section class="pt-4 bg-light shadow border" id="team">
             <div class="container px-lg-5">
 
                 <div class="row gx-lg-5 py-5 my-5">
 
                     <div class="col-12 text-center">
-                        <h1 class="fw-bolder display-1"><i class="fa-solid fa-users me-1"></i> Team</h1>
-                        <p>People who work for More Than Papua</p>
+                        <h1 class="fw-bolder display-1 text-uppercase"><i class="fa-solid fa-users me-1"></i> Team</h1>
+                        <p class="text-muted my-3">People who work for More Than Papua</p>
                     </div>
 
                 </div>
                 <!-- Page Features-->
-                <div class="row gx-lg-5">
+                <div class="row gx-lg-5 my-5 py-5">
                     <div class="col-lg-6 col-xxl-3 mb-5">
-                        <div class="card bg-light border-0 h-100">
+                        <div class="card bg-light border h-100 shadow">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
                                 <img src="./assets/team/team-1.png" class="img img-fluid mb-3" alt="Team Picture">
@@ -91,7 +158,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-xxl-3 mb-5">
-                        <div class="card bg-light border-0 h-100">
+                        <div class="card bg-light border h-100 shadow">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-download"></i></div>
                                 <img src="./assets/team/team-2.png" class="img img-fluid mb-3" alt="Team Picture">
@@ -101,7 +168,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-xxl-3 mb-5">
-                        <div class="card bg-light border-0 h-100">
+                        <div class="card bg-light border h-100 shadow">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
                                 <img src="./assets/team/team-3.png" class="img img-fluid mb-3" alt="Team Picture">
@@ -111,7 +178,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-xxl-3 mb-5">
-                        <div class="card bg-light border-0 h-100">
+                        <div class="card bg-light border h-100 shadow">
                             <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                                 <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
                                 <img src="./assets/team/team-4.png" class="img img-fluid mb-3" alt="Team Picture">
@@ -123,22 +190,75 @@
                 </div>
             </div>
         </section>
+        <!-- team end -->
 
-        <!-- Content section-->
-        <section class="py-5" id="project">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Engaging Background Images</h2>
-                        <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+        <!-- contact start -->
+        <section class="pt-5" id="contact">
+            <div class="container">
+
+                <div class="row mt-4">
+
+                    <div class="col-12 text-center">
+                        <h1 class="fw-bolder display-1 text-uppercase"><i class="fa-solid fa-globe me-1"></i> Contact</h1>
+                        <p class="text-muted mt-3">Connect with us</p>
                     </div>
+
+                </div>
+                <!-- Page Features-->
+                <div class="row my-5 py-5">
+
+                    <div class="col-lg-6 mb-5 mx-auto">
+                        <div class="card bg-light border h-100 shadow">
+                            <div class="card-body text-center p-5">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3"><i class="bi bi-collection"></i></div>
+                                <h2 class="fs-4 fw-bold text-start mb-4">Message or call</h2>
+
+                                <div class="text-start">
+                                    <a href="mailto:morepapua.official@gmail.com" class="link-dark text-decoration-none fs-3 d-block" target="_blank">
+                                        <i class="fa-solid fa-envelope me-2"></i><span> morepapua.official@gmail.com</span> 
+                                    </a>
+                                    <a href="call:+6108123456789" class="link-dark text-decoration-none fs-3 d-block" target="_blank">
+                                        <i class="fa-solid fa-phone me-2"></i><span> +61 081 2345 6789</span> 
+                                    </a>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mb-5 mx-auto">
+                        <div class="card bg-light border h-100 shadow">
+                            <div class="card-body text-center p-5">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3"><i class="bi bi-collection"></i></div>
+                                <h2 class="fs-4 fw-bold text-start mb-4">Social Media</h2>
+
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="link-dark text-decoration-none fs-3" target="_blank">
+                                        <i class="fa-brands fa-instagram me-2"></i> <span>Instagram</span> 
+                                    </a>
+    
+                                    <a href="#" class="link-dark text-decoration-none fs-3" target="_blank">
+                                        <i class="fa-brands fa-facebook me-2"></i> <span>Facebook</span> 
+                                    </a>
+    
+                                    <a href="#" class="link-dark text-decoration-none fs-3" target="_blank">
+                                        <i class="fa-brands fa-linkedin me-2"></i> <span>Linkedin</span> 
+                                    </a>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
+        <!-- contact end -->
+
+
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; More Than Papua 2022</p></div>
+            <div class="container"><p class="m-0 text-center text-muted">Copyright &copy; More Than Papua 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
